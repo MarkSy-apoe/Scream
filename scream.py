@@ -89,7 +89,9 @@ while page == 2:
 	
 	
 	import pywhatkit
-		
+	now = datetime.now()
+	hour = now.hour
+	mintoexec = now.minute + 1
 	pywhatkit.sendwhatmsg(target, final, hour, mintoexec)
 	page = 3
 	
