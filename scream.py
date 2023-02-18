@@ -76,7 +76,7 @@ while page == 5:
 		messageconv.append(seek)
 	
 	count = 0
-        smack = intensity * 50000
+        smack = intensity * 100000
 	
 	while count <= smack:
 		bug = 8206
